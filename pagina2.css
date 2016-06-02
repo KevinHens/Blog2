@@ -1,0 +1,227 @@
+body{
+  background-color: linen;
+}
+
+@media (max-width: 1000px){
+  .nav{
+    display: none;
+  }
+}
+
+.kasteel{
+  background-image: url(kasteel.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  width: 250px;
+  height: 350px;
+  margin-top: -400px;
+  z-index: 30;
+  animation: kasteeltje 5s linear infinite;
+}
+
+@keyframes kasteeltje{
+  50%{
+    transform: scale(1.08);
+  }
+}
+
+@media (max-width: 800px){
+  .kasteel{
+    display: none;
+  }
+}
+
+.kop{
+  width: 65%;
+  height: 200px;
+  background-image: url(wapens.png);
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+  width: 65%;
+  height: 200px;
+  background-color: cadetblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-size: 4.6em;
+  width: 100%;
+  height: 75px;
+  text-align: center;
+  color: lightblue;
+  padding-top: 25px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+  font-size: 2.0em;
+  color: lightblue;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1000px){
+  h1{
+    font-size: 6em;
+  }
+
+  h2{
+    font-size: 3em;
+  }
+}
+
+.hr1{
+  color: white;
+  margin-top: -150px;
+  border: 2px solid white;
+}
+
+.nav{
+  margin-top: 175px;
+}
+
+.buttons{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid white;
+  box-shadow: 2px 2px 4px black;
+}
+
+.buttons:hover{
+  background-color: white;
+  color: black;
+}
+
+
+.midden{
+  width: 65%;
+  height: 700px;;
+  margin: -10px auto;
+  padding-top: 20px;
+  background-color: steelblue;
+}
+
+@media (max-width: 600px){
+  .midden{
+    height: 800px;
+  }
+}
+
+@media (max-width: 400px){
+  .midden{
+    height: 1300px;
+  }
+}
+@media (max-width: 300px){
+  .midden{
+    height: 1500px;
+  }
+}
+
+.hr2{
+  color: white;
+  border-top: 10px solid white;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  position: relative;
+}
+
+.boston{
+  height: 300px;
+  margin: 0px auto;
+  background-image: url(boston.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.boston:hover,.ir:hover,.hitler:hover{
+  width: 105%;
+  margin-left: -2.5%;
+  box-shadow: 0px 0px 10px black;
+}
+
+h3{
+  font-size: 2.5em;
+  height: 75px;
+  text-align: center;
+  color: lightblue;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+h4{
+  width: 60%;
+  margin: 0px auto;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: lightblue;
+  margin-top: 10px;
+}
+
+p{
+  width: 80%;
+  margin: 10px auto;
+  font-style: italic;
+}
+
+h5{
+  width: 80%;
+  margin: auto;
+  font-weight: bold;
+}
+
+.tag{
+  margin: auto;
+  display: inline-block;
+  text-decoration: none;
+  color: lightblue;
+  padding-top: 5px;
+  float: left;
+  padding-left: 10%;
+}
+
+.tag:hover{
+  font-weight: bold;
+}
+
+.hr3{
+  color: white;
+  border: 2px solid white;
+  margin-top: 50px;
+}
+
+.tir{
+    margin-top: 20px;
+}
+
+.ir{
+  background-image: url(ir.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  margin-top: 0px auto;
+}
+
+.hitler{
+  background-image: url(hitler.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  margin-top: 0px auto;
+}
